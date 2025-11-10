@@ -133,7 +133,14 @@ echo ""
 echo -e "Created ${GREEN}$skill_count${NC} skill ZIP files in ${BLUE}$OUTPUT_DIR/${NC}"
 echo ""
 echo "File listing:"
-ls -lh "$OUTPUT_DIR" | tail -n +2 | awk '{printf "  %-40s %5s\n", $9, $5}'
+for file in "$OUTPUT_DIR"/*; do
+  if [ -f "$file" ]; then
+    size=$(stat -c %s "$file")
+    human_size=$(numfmt --to=iec-i --suffix=B "$size")
+    filename=$(basename "$file")
+    printf "  %-40s %7s\n" "$filename" "$human_size"
+  fi
+done
 echo ""
 echo "Total size: $(du -sh $OUTPUT_DIR | cut -f1)"
 echo ""
