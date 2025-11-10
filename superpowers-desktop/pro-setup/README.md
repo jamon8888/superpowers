@@ -22,11 +22,12 @@ This directory contains everything you need to set up Superpowers skills for Cla
 
 ### Recommended: Skills ZIP Upload
 
-1. **Create skill ZIPs:**
-   ```bash
-   cd pro-setup
-   ./create-skill-zips.sh
-   ```
+**All ZIPs are pre-generated!** No script needed.
+
+1. **Download skill ZIPs:**
+   - Clone repo or download from `skill-zips/` directory
+   - All 20 ZIPs ready to use (135KB total)
+   - See `skill-zips/README.md` for details
 
 2. **Upload to Claude Desktop:**
    - Open Claude Desktop
