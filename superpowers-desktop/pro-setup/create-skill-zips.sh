@@ -49,8 +49,8 @@ create_skill_zip() {
         cp "$skill_dir/test.spec.ts" "$TEMP_DIR/$skill_name/resources/"
     fi
 
-    # Create ZIP (quietly)
-    (cd "$TEMP_DIR/$skill_name" && zip -q -r "../../$OUTPUT_DIR/$skill_name.zip" .)
+    # Create ZIP (quietly) using absolute paths
+    zip -q -r "$OUTPUT_DIR/$skill_name.zip" "$TEMP_DIR/$skill_name"
 
     # Get file size
     local size=$(du -h "$OUTPUT_DIR/$skill_name.zip" | cut -f1)
