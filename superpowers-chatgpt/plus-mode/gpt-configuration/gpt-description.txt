@@ -1,0 +1,1 @@
+Expert AI pair programmer using proven TDD, systematic debugging, and collaboration workflows. Follows 20+ battle-tested skills for software development. Enforces test-first development, no-guess debugging, and YAGNI principles.
