@@ -28,18 +28,19 @@ Originally built as a Claude Code plugin, this distribution adapts the skills fo
 - ⚠️ Manual checklist tracking (no TodoWrite)
 
 **→ [Get Started with Pro Setup](pro-setup/SETUP.md)**
+**→ [Skills ZIP Upload Guide](pro-setup/SKILLS-ZIP-UPLOAD-GUIDE.md)** (Recommended method)
 
 ### 💡 Free Users ($0)
 
-**Limited but workable experience.**
+**Full Superpowers compatibility, zero cost.**
 
-- ✅ Core 3 workflows (TDD, debugging, brainstorming)
+- ✅ **FULL 20+ skills library** (all-skills.md)
+- ✅ All workflows (core, testing, debugging, collaboration, meta)
 - ✅ Quick-reference cheat sheets
 - ✅ 2-minute setup per session
-- ❌ Must upload files each conversation
+- ⚠️ Must upload files each conversation
 - ❌ No persistent knowledge
 - ❌ No custom instructions
-- ❌ No enforcement
 
 **→ [Get Started with Free Mode](free-mode/QUICK-START.md)**
 
@@ -69,9 +70,9 @@ See [main repository](https://github.com/obra/superpowers) for details.
 | **Subagent spawning** | ✅ Yes | ❌ No | ❌ No |
 | **Setup time** | 5 min | 15 min | 2 min/session |
 | **Monthly cost** | $0* | $20 | $0 |
-| **Skills available** | 20+ full | 20+ full | 3 core |
-| **Context efficiency** | High | Medium | Low |
-| **Enforcement** | Strong | Weak | None |
+| **Skills available** | 20+ full | 20+ full | 20+ full (condensed) |
+| **Context efficiency** | High | Medium | Medium |
+| **Enforcement** | Strong | Weak | Manual |
 
 *If already using Claude Code
 

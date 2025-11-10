@@ -8,37 +8,55 @@
 
 ## What You Get
 
-**Free mode provides:**
+**Free mode NOW provides:**
+- ✅ **FULL 20+ skills library** (new: all-skills.md)
 - ✅ Core 3 workflows (TDD, debugging, brainstorming)
+- ✅ Complete skills (testing, debugging, collaboration, meta)
 - ✅ One-page cheat sheets for quick reference
-- ✅ Essential patterns without automation
+- ✅ Full Superpowers compatibility
 
 **What you don't get:**
 - ❌ Persistent skills (must upload each session)
 - ❌ Custom instructions
-- ❌ Full 20-skill library
 - ❌ Automatic activation
 
-**Good enough for:** Learning the workflows, occasional use, evaluation before upgrading
+**Good enough for:** Full workflow access, learning, evaluation, production use without Pro subscription
 
 ---
 
 ## Quick Start (Do This Every Conversation)
 
-### Method 1: Full Workflows (Recommended)
+### Method 1: Complete Skills Library (NEW - Recommended)
 
-1. **Download** `core-workflows.md` from this directory
+1. **Download** `all-skills.md` from this directory
 2. **Start new conversation** in Claude Desktop
 3. **Upload file** using the paperclip icon
-4. **Say:** "Follow the core workflows in core-workflows.md"
+4. **Say:** "I've uploaded the Superpowers skills library"
+
+**What's included:**
+- All 20+ skills in condensed format (~25KB)
+- Core: TDD, Debugging, Brainstorming, Using Superpowers
+- Testing: Anti-patterns, Async patterns, Skill testing
+- Debugging: Defense in depth, Root cause tracing, Verification
+- Collaboration: Plans, Code review, Git workflows, Parallel work
+- Meta: Writing skills, Sharing skills
+
+**Best for:** Full Superpowers experience without Pro
+
+### Method 2: Core Workflows Only (Original)
+
+1. **Download** `core-workflows.md` from this directory
+2. **Upload to conversation**
+3. **Say:** "Follow the core workflows in core-workflows.md"
 
 **What's included:**
 - Test-Driven Development (TDD)
 - Systematic Debugging
 - Brainstorming
-- Quick reference for all three
 
-### Method 2: Cheat Sheets (Quick Reference)
+**Best for:** Quick start with just essentials
+
+### Method 3: Cheat Sheets (Quick Reference)
 
 For quick tasks, use single-page cheat sheets:
 
@@ -346,7 +364,8 @@ Claude: "Great! I'll use TDD from core-workflows.md.
 ```
 free-mode/
 ├── QUICK-START.md (you are here)
-├── core-workflows.md (upload this for full workflows)
+├── all-skills.md (NEW: ALL 20+ skills - upload for full experience)
+├── core-workflows.md (core 3 workflows only)
 └── cheat-sheets/
     ├── tdd-cheat-sheet.md (1-page TDD reference)
     ├── debugging-cheat-sheet.md (1-page debugging reference)
@@ -357,10 +376,10 @@ free-mode/
 
 **Ready to start?**
 
-1. Download `core-workflows.md`
+1. Download `all-skills.md` (for full library) or `core-workflows.md` (for essentials)
 2. Start a new Claude conversation
 3. Upload the file
-4. Say: "Follow the workflows in core-workflows.md"
-5. Start building!
+4. Say: "I've uploaded the Superpowers skills library"
+5. Reference skills as needed: "Use Test-Driven Development to implement X"
 
 **Good luck! 🚀**
