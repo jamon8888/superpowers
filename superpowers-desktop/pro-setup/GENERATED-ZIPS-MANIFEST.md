@@ -129,14 +129,20 @@ du -sh skill-zips/
 
 ---
 
-## Regenerating ZIPs
+## Pre-Generated ZIPs
 
-If you modify skill source files, regenerate ZIPs:
+✅ **All ZIPs are pre-generated and included in this repository!**
+
+You don't need to run any scripts. Just download from `skill-zips/` directory.
+
+## Regenerating ZIPs (Optional)
+
+Only needed if you modify skill source files:
 
 ```bash
 cd superpowers-desktop/pro-setup
-rm -rf skill-zips/
 ./create-skill-zips.sh
+# New ZIPs generated in skill-zips/
 ```
 
 ---

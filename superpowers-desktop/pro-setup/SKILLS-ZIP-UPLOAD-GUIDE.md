@@ -107,9 +107,28 @@ systematic-debugging.zip
 
 ---
 
-## Creating ZIP Files for Upload
+## Getting the ZIP Files
 
-### Method 1: Individual Skills (Recommended for Starting)
+### Method 1: Pre-Generated ZIPs (Easiest - Recommended)
+
+**All 20 skill ZIPs are pre-generated and included in the repository!**
+
+Simply download from `pro-setup/skill-zips/` directory - no script needed.
+
+**Download:**
+1. Clone repository: `git clone https://github.com/obra/superpowers`
+2. Navigate to: `superpowers/superpowers-desktop/pro-setup/skill-zips/`
+3. All 20 ZIPs ready to upload (135KB total)
+
+Or download individual ZIPs from GitHub repository.
+
+**Then proceed to [Uploading Skills](#uploading-skills-to-claude-desktop) section below.**
+
+### Method 2: Generate Yourself (Optional)
+
+If you prefer to generate ZIPs from source:
+
+#### Individual Skills
 
 Create a ZIP file for each core skill:
 
@@ -149,9 +168,9 @@ cd ../..
 rm -rf temp
 ```
 
-### Method 2: Automated Script
+#### Automated Script
 
-Use this script to create all skill ZIPs:
+Or use the included script to regenerate all ZIPs:
 
 ```bash
 #!/bin/bash
@@ -232,9 +251,9 @@ chmod +x create-skill-zips.sh
 ./create-skill-zips.sh
 ```
 
-### Method 3: Quick Command Line
+#### Quick Command Line (Single Skill)
 
-For a single skill:
+For generating a single skill manually:
 
 ```bash
 # Navigate to skills directory
