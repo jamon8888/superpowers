@@ -1,0 +1,4 @@
+Help me implement [feature] using TDD
+Debug this error using systematic debugging
+Design [feature] using brainstorming
+Review my code before I create a PR
