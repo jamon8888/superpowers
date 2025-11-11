@@ -1,19 +1,21 @@
-# Team Superpowers GPT Setup Guide
+# Team Superpowers Projects Setup Guide
 
-**Deploy Superpowers across your entire team with one Custom GPT**
+**Deploy Superpowers across your entire team using shared ChatGPT Projects**
 
 ---
 
 ## Overview
 
-ChatGPT Team/Enterprise plans allow creating **organization-wide Custom GPTs** that all team members can access.
+ChatGPT Team/Enterprise plans allow creating **shared Projects** that all team members can access.
 
 **Benefits:**
-- ✅ **One GPT for entire team** - Consistent practices
+- ✅ **One project for entire team** - Consistent practices
 - ✅ **Centralized management** - Update once, affects everyone
 - ✅ **Custom team standards** - Add your coding guidelines
 - ✅ **Onboarding** - New team members get instant access
 - ✅ **Compliance** - Enforce mandatory workflows
+
+**Same as Claude Desktop Projects, but shared across organization!**
 
 ---
 
@@ -30,7 +32,7 @@ ChatGPT Team/Enterprise plans allow creating **organization-wide Custom GPTs** t
 
 ### Step 1: Plan Your Customizations
 
-Before creating GPT, decide:
+Before creating project, decide:
 
 **Team-Specific Rules to Add:**
 - Programming languages (TypeScript only? Python?)
@@ -70,27 +72,39 @@ Before creating GPT, decide:
 
 ---
 
-### Step 2: Create Organization GPT
+### Step 2: Create Shared Team Project
 
 **As Team Admin:**
 
-1. Go to ChatGPT → Explore GPTs → Create
-2. Click **Configure** tab
-3. Fill in details (see [Plus Mode Guide](../plus-mode/GPT-SETUP-GUIDE.md) for basics)
-4. **Add team customizations to Instructions**
-5. **Upload knowledge files** (all 20 skills)
-6. **Set visibility:**
-   - ❌ Not "Only me"
-   - ❌ Not "Anyone with link"
-   - ✅ **"Workspace"** or **"Organization"**
-7. Click **Create**
+1. Go to ChatGPT → My Projects
+2. Click "+ New Project"
+3. **Name:** "Superpowers Development - [Team Name]"
+4. **Make it shared:** Invite team members or set as org-wide
+5. Click "Create Project"
 
 ---
 
-### Step 3: Customize Instructions for Team
+### Step 3: Upload Skill Files
+
+Upload all 20 skill files to the team project:
+
+From: `../plus-mode/knowledge-files/` directory
+
+**Upload ALL files:**
+- core/ (4 files)
+- testing/ (3 files)
+- debugging/ (3 files)
+- collaboration/ (8 files)
+- meta/ (3 files)
+
+**Total:** 20 skill files
+
+---
+
+### Step 4: Set Team Custom Instructions
 
 **Base Instructions:**
-Start with: `../plus-mode/gpt-configuration/gpt-instructions.txt`
+Start with standard instructions from `../plus-mode/PROJECTS-SETUP-GUIDE.md`
 
 **Add Team Section:**
 ```markdown
@@ -143,11 +157,11 @@ Follow these rules strictly.
 
 ---
 
-### Step 4: Test with Team Members
+### Step 5: Test with Team Members
 
 **Before announcing:**
 
-1. **Test yourself** - Verify GPT follows team rules
+1. **Test yourself** - Verify project follows team rules
 2. **Test with 2-3 team members** - Get feedback
 3. **Refine instructions** based on feedback
 4. **Document any issues** for team announcement
@@ -160,17 +174,17 @@ Follow these rules strictly.
 
 ---
 
-### Step 5: Team Rollout
+### Step 6: Team Rollout
 
 **Announcement Template:**
 
 ```markdown
 Hi Team! 🎉
 
-We've created a team-wide Superpowers Development GPT!
+We've created a shared "Superpowers Development" project in ChatGPT!
 
 **What is it?**
-An AI pair programmer that knows:
+A shared project that knows:
 - Our tech stack (React, TypeScript, Node, PostgreSQL)
 - Our coding standards (Airbnb guide, Jest testing)
 - Our workflows (TDD, systematic debugging, code review)
@@ -178,9 +192,9 @@ An AI pair programmer that knows:
 
 **How to access:**
 1. Go to ChatGPT (use your work account)
-2. Click "Explore GPTs"
+2. Click "My Projects"
 3. Look for "Superpowers Development - [Team Name]"
-4. Or use this link: [workspace GPT link]
+4. Start a conversation in that project
 
 **How to use:**
 - "Help me implement [feature] using our stack"
@@ -209,26 +223,26 @@ Happy coding! 🚀
 
 ---
 
-### Step 6: Onboarding New Members
+### Step 7: Onboarding New Members
 
 **For new team members:**
 
 1. **During onboarding:**
-   - Show them the GPT
+   - Show them the project
    - Walk through one feature implementation
    - Demonstrate TDD enforcement
    - Show code review preparation
 
 2. **Provide quick start guide:**
    ```
-   New Developer Quick Start with Superpowers GPT
+   New Developer Quick Start with Superpowers
 
-   1. Access: [GPT link]
+   1. Access: ChatGPT → My Projects → "Superpowers Development"
    2. First task: "Help me set up my dev environment"
    3. Practice: "Implement a simple TODO API endpoint"
-   4. Watch: GPT enforces TDD, uses our stack, follows standards
+   4. Watch: ChatGPT enforces TDD, uses our stack, follows standards
 
-   The GPT knows:
+   The project knows:
    - Our entire tech stack
    - Our coding standards
    - Our testing requirements
@@ -254,6 +268,15 @@ Happy coding! 🚀
 - Update style guide references
 - Refine testing requirements
 - Add security policies
+
+### Updating Skills
+
+When Superpowers skills are updated:
+
+1. Download new skill files
+2. Delete old files from project
+3. Upload new files
+4. Update immediately for all team members
 
 ### Tracking Effectiveness
 
@@ -342,26 +365,26 @@ Use defense-in-depth.md for all features.
 
 ---
 
-## Advanced: Multiple Team GPTs
+## Advanced: Multiple Team Projects
 
 **Large organizations might create:**
 
-### Backend Team GPT
+### Backend Team Project
 - Focus on API development, databases, performance
 - Backend-specific skills emphasized
 - Service architecture patterns
 
-### Frontend Team GPT
+### Frontend Team Project
 - Focus on UI/UX, accessibility, performance
 - Frontend frameworks and testing
 - Design system integration
 
-### Platform Team GPT
+### Platform Team Project
 - Focus on infrastructure, CI/CD, observability
 - Deployment workflows
 - Incident response
 
-### QA Team GPT
+### QA Team Project
 - Focus on test strategies, automation
 - Bug investigation workflows
 - Test plan reviews
@@ -370,9 +393,9 @@ Use defense-in-depth.md for all features.
 
 ## Troubleshooting
 
-### GPT Not Enforcing Team Rules
+### Project Not Enforcing Team Rules
 
-**Problem:** GPT ignores team-specific standards
+**Problem:** ChatGPT ignores team-specific standards
 
 **Solution:**
 - Move team rules to TOP of instructions
@@ -380,7 +403,7 @@ Use defense-in-depth.md for all features.
 - Add examples of team standards
 - Test with specific scenarios
 
-### Team Members Not Using GPT
+### Team Members Not Using Project
 
 **Problem:** Low adoption rate
 
@@ -424,11 +447,25 @@ Use defense-in-depth.md for all features.
 
 ---
 
+## Comparison to Claude Desktop
+
+**ChatGPT Team Projects vs Claude Desktop:**
+
+Both platforms support shared team projects with:
+- ✅ Shared skill files
+- ✅ Team custom instructions
+- ✅ Centralized management
+- ✅ Same experience
+
+**Same approach on both platforms!**
+
+---
+
 ## Next Steps
 
 1. **Get buy-in** from team leads and developers
 2. **Plan customizations** for your team
-3. **Create team GPT** following this guide
+3. **Create team project** following this guide
 4. **Test with subset** of team first
 5. **Roll out** to entire team
 6. **Iterate** based on feedback
@@ -437,7 +474,7 @@ Use defense-in-depth.md for all features.
 
 ## Support
 
-- **Setup questions:** Refer to [Plus Mode Guide](../plus-mode/GPT-SETUP-GUIDE.md)
+- **Setup questions:** Refer to [Plus Mode Guide](../plus-mode/PROJECTS-SETUP-GUIDE.md)
 - **Customization help:** [GitHub Discussions](https://github.com/obra/superpowers/discussions)
 - **Issues:** [GitHub Issues](https://github.com/obra/superpowers/issues)
 
@@ -445,4 +482,4 @@ Use defense-in-depth.md for all features.
 
 **Ready to transform your team's development practices?** 🚀
 
-Create your team GPT today and watch code quality improve overnight.
+Create your team project today and watch code quality improve!

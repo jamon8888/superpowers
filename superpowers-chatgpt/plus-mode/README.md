@@ -1,32 +1,31 @@
-# ChatGPT Plus: Custom Superpowers GPT
+# ChatGPT Plus: Superpowers Projects Setup
 
-**The BEST way to use Superpowers - Create your own Custom GPT!**
+**Use ChatGPT Projects for persistent Superpowers skills**
 
 ---
 
-## Why Plus Mode is Superior
+## Why Plus Mode with Projects
 
-✅✅ **Permanent persistence** - GPT exists forever
-✅✅ **Zero friction** - Click link, start using
-✅✅ **Shareable** - Send link to teammates
-✅✅ **Automatic** - GPT knows when to use skills
-✅✅ **One GPT for all projects** - No per-project setup
-✅✅ **GPT Store listing** - Discoverable by others
+✅ **Persistent skills** - Files available across all conversations in project
+✅ **Custom instructions** - Automatic skill activation reminders
+✅ **Organized** - Keep all development work in one project
+✅ **Same as Claude** - Similar experience to Claude Desktop Projects
+✅ **No script needed** - Just upload files
+
+**Same approach as Claude Desktop Projects!**
 
 ---
 
 ## Quick Start
 
-**5-minute setup for permanent assistant:**
+**10-minute setup for persistent skills:**
 
-1. **Read:** [GPT-SETUP-GUIDE.md](GPT-SETUP-GUIDE.md) (complete tutorial)
-2. **Go to:** https://chat.openai.com → Explore GPTs → Create
-3. **Configure:**
-   - Name: Superpowers Development
-   - Description: From `gpt-configuration/gpt-description.txt`
-   - Instructions: From `gpt-configuration/gpt-instructions.txt`
+1. **Read:** [PROJECTS-SETUP-GUIDE.md](PROJECTS-SETUP-GUIDE.md) (complete tutorial)
+2. **Go to:** https://chat.openai.com → My Projects → New Project
+3. **Name:** "Superpowers Development"
 4. **Upload:** All 20 files from `knowledge-files/` directory
-5. **Save** and share!
+5. **Set custom instructions:** From guide
+6. **Done!** Use project for all development conversations
 
 ---
 
@@ -34,13 +33,9 @@
 
 ```
 plus-mode/
-├── GPT-SETUP-GUIDE.md           ⭐ Complete setup tutorial (read this)
+├── PROJECTS-SETUP-GUIDE.md      ⭐ Complete setup tutorial (read this)
 ├── README.md                     (you are here)
-├── gpt-configuration/
-│   ├── gpt-instructions.txt     Copy/paste into GPT
-│   ├── gpt-description.txt      Copy/paste into GPT
-│   └── conversation-starters.txt Copy/paste into GPT
-└── knowledge-files/              Upload ALL to GPT
+└── knowledge-files/              Upload ALL to ChatGPT Project
     ├── core/ (4 skills)
     ├── testing/ (3 skills)
     ├── debugging/ (3 skills)
@@ -54,26 +49,39 @@ plus-mode/
 
 After setup:
 
-✅ **Permanent "Superpowers Development" GPT** in your account
-✅ **Direct link** (bookmark it): `https://chat.openai.com/g/g-xyz123`
-✅ **Share with team** - Send link to anyone with Plus
-✅ **Automatic TDD** - GPT enforces test-first automatically
-✅ **Systematic debugging** - GPT follows 4-phase process
-✅ **20+ skills** - All built into GPT's knowledge base
-✅ **No re-uploads** - GPT always has skills
+✅ **ChatGPT Project** with all 20+ skills
+✅ **Custom instructions** for automatic skill reminders
+✅ **Persistent across conversations** in that project
+✅ **Same workflow** as Claude Desktop Projects
+✅ **No re-uploads** within project
 
 ---
 
 ## Comparison
 
-| Aspect | Free Mode | Plus Mode (GPT) |
-|--------|-----------|-----------------|
-| **Upload** | Every conversation | ✅ Once (5 min) |
-| **Access** | Upload file | ✅ Click link |
-| **Persistence** | ❌ None | ✅✅ Forever |
-| **Sharing** | ❌ Can't share | ✅✅ Link sharing |
-| **Activation** | Manual | ✅ Automatic |
+| Aspect | Free Mode | Plus Mode (Projects) |
+|--------|-----------|---------------------|
+| **Upload** | Every conversation | ✅ Once per project |
+| **Access** | Upload file | ✅ Use project |
+| **Persistence** | ❌ None | ✅ Project-wide |
+| **Instructions** | ❌ None | ✅ Custom instructions |
 | **Cost** | $0 | $20/month |
+
+---
+
+## Comparison to Claude Desktop
+
+**ChatGPT Projects vs Claude Desktop Projects:**
+
+| Feature | ChatGPT Projects | Claude Desktop Projects |
+|---------|------------------|------------------------|
+| **Setup** | Upload 20 files | Upload 20 files OR 20 ZIPs |
+| **Instructions** | Custom instructions | Custom instructions |
+| **Persistence** | Project-wide | Project-wide |
+| **File management** | Individual files | Individual files OR ZIPs |
+| **Experience** | ✅ Same | ✅ Same |
+
+**Both work the same way!** Use Projects on either platform.
 
 ---
 
@@ -81,27 +89,27 @@ After setup:
 
 ### Personal Development
 
-Create your own Superpowers GPT:
-- Always available when you code
-- Enforces TDD automatically
-- Systematic debugging built-in
-- One GPT for all projects
+Create "Superpowers Development" project:
+- Upload all skills once
+- Use for all coding conversations
+- Skills always available
+- Custom instructions remind ChatGPT to use them
+
+### Multiple Projects
+
+Create specialized projects:
+- "Superpowers - Web Frontend"
+- "Superpowers - Backend APIs"
+- "Superpowers - Data Science"
+
+Each with relevant skills emphasized in custom instructions.
 
 ### Team Collaboration
 
-Share your GPT with teammates:
-- Everyone uses same assistant
+Team/Enterprise plans can create shared projects:
+- All team members access same project
 - Consistent development practices
-- Link-based access (simple)
-- No individual setup needed
-
-### Public Sharing
-
-Publish to GPT Store:
-- Anyone with Plus can use
-- Discoverable in GPT Store
-- Community can fork/customize
-- Spread best practices
+- Centralized skill management
 
 ---
 
@@ -110,50 +118,47 @@ Publish to GPT Store:
 ### Creating Feature with TDD
 
 ```
+[In Superpowers Development project]
+
 You: "Help me implement user authentication"
 
-Superpowers GPT: "I'm using brainstorming.md to design this feature.
+ChatGPT: "I'm using brainstorming.md to design this feature first.
 
-                  Let me ask some questions:
-                  1. What authentication method? (JWT, sessions, OAuth?)
-                  2. Where does user data store? (database, service?)
-                  3. What are the security requirements?
+          Let me ask clarifying questions:
+          1. What authentication method?
+          2. Where does user data store?
+          3. What are security requirements?
 
-                  [After design]
+          [After design]
 
-                  I'm now using test-driven-development.md to implement.
+          I'm using test-driven-development.md to implement.
 
-                  RED Phase: Writing failing test...
+          RED Phase: Writing failing test...
 
-                  test('authenticates valid credentials', () => {
-                    const result = authenticate('user@email.com', 'password');
-                    expect(result.success).toBe(true);
-                  });
+          test('authenticates valid credentials', () => {
+            expect(authenticate('user@email.com', 'pass')).toBe(true);
+          });
 
-                  Let me run this to verify RED..."
+          Let me run this to verify RED..."
 ```
-
-**Notice:** GPT automatically:
-- Used brainstorming first (design)
-- Switched to TDD for implementation
-- Followed RED-GREEN-REFACTOR
-- No manual skill selection needed!
 
 ### Debugging with Systematic Process
 
 ```
-You: "My tests are failing with 'Cannot read property of undefined'"
+[In Superpowers Development project]
 
-Superpowers GPT: "I'm using systematic-debugging.md for this error.
+You: "Tests failing with 'Cannot read property of undefined'"
 
-                  Phase 1: Root Cause Investigation
+ChatGPT: "I'm using systematic-debugging.md for this error.
 
-                  Let me read the error carefully:
-                  - What property is undefined?
-                  - Where does this happen?
-                  - What's the stack trace?
+          Phase 1: Root Cause Investigation
 
-                  [Investigation continues through 4 phases]"
+          Let me examine:
+          - What property is undefined?
+          - Where does this occur?
+          - Stack trace details?
+
+          [Investigation continues...]"
 ```
 
 ---
@@ -161,30 +166,29 @@ Superpowers GPT: "I'm using systematic-debugging.md for this error.
 ## Benefits
 
 ### vs Free Mode
-- **Time saved:** 2 minutes per conversation × daily use = hours per month
-- **Consistency:** Same GPT always, no variation
-- **Sharing:** Send link to teammates instantly
+- **Time saved:** No uploading each conversation
+- **Consistency:** Same project always
+- **Instructions:** Automatic skill reminders
 
-### vs Claude Desktop Pro
-- **Better sharing:** Link vs no sharing
-- **Better discovery:** GPT Store vs hidden menu
-- **Better access:** Bookmark link vs Settings → Capabilities
-- **Same price:** $20/month for both
+### vs Custom GPTs
+- **Simpler:** Just upload files
+- **Updates:** Replace files vs edit GPT
+- **Flexibility:** Multiple projects for different work
 
-### vs Uploading Files
-- **Friction:** Click link vs upload + explain every time
-- **Errors:** Zero vs occasional "forgot to upload"
-- **Onboarding:** Send link vs "download this file..."
+### Same as Claude Desktop
+- **Familiar:** Same workflow if you use both
+- **Portable:** Same skills on both platforms
+- **Consistent:** Same development practices
 
 ---
 
 ## Next Steps
 
-1. **Setup:** Follow [GPT-SETUP-GUIDE.md](GPT-SETUP-GUIDE.md) (5 minutes)
+1. **Setup:** Follow [PROJECTS-SETUP-GUIDE.md](PROJECTS-SETUP-GUIDE.md) (10 minutes)
 2. **Test:** Try implementing something with TDD
-3. **Share:** Send link to teammates
-4. **Use daily:** Make it your default coding assistant
+3. **Use daily:** Make it your default development project
+4. **Customize:** Add team standards to custom instructions
 
 ---
 
-**Ready?** → [GPT-SETUP-GUIDE.md](GPT-SETUP-GUIDE.md) 🚀
+**Ready?** → [PROJECTS-SETUP-GUIDE.md](PROJECTS-SETUP-GUIDE.md) 🚀
