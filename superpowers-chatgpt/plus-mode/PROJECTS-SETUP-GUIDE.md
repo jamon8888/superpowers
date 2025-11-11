@@ -445,7 +445,7 @@ When new versions are released:
 
 ### Backing Up Your Project
 
-Projects are stored by ChatGPT. To backup:
+Projects are stored by ChatGPT. To back up:
 - Export conversations regularly
 - Keep a copy of your skill files locally
 - Document any custom skills you've added
