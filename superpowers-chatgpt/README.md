@@ -14,7 +14,7 @@ Superpowers is a comprehensive skills library providing:
 - **Brainstorming** - Socratic design refinement
 - **20+ Additional Skills** - Testing, collaboration, code review, git workflows
 
-Originally built as a Claude Code plugin, this distribution adapts the skills for ChatGPT with realistic expectations about what works in each tier.
+Originally built as a Claude Code plugin, this distribution adapts the skills for ChatGPT using **ChatGPT Projects** (similar to Claude Desktop Projects).
 
 ---
 
@@ -35,24 +35,23 @@ Originally built as a Claude Code plugin, this distribution adapts the skills fo
 
 ### ⭐ Plus Users ($20/month)
 
-**BEST EXPERIENCE - Custom Superpowers GPT!**
+**Use ChatGPT Projects - Same as Claude Desktop!**
 
-- ✅✅ **Create custom "Superpowers" GPT** (one-time setup)
-- ✅✅ **Permanent persistence** - Always available
-- ✅✅ **Shareable via link** - Send to teammates
-- ✅ All 20+ skills built-in
-- ✅ Automatic skill activation
+- ✅ **Create "Superpowers" Project** (10-minute setup)
+- ✅ **Persistent skills** - Upload once, use always
+- ✅ **Custom instructions** - Automatic skill reminders
+- ✅ All 20+ skills in project files
+- ✅ **Same approach as Claude Desktop Projects**
 - ✅ No per-conversation setup
-- 🎯 **Better than Claude Desktop Pro**
 
-**→ [Get Started with Plus Mode](plus-mode/GPT-SETUP-GUIDE.md)**
+**→ [Get Started with Plus Mode](plus-mode/PROJECTS-SETUP-GUIDE.md)**
 
 ### 🏢 Team/Enterprise
 
-**Shared team GPT for consistent workflows.**
+**Shared team projects for consistent workflows.**
 
-- ✅ Organization-wide Superpowers GPT
-- ✅ All team members access same assistant
+- ✅ Organization-wide Superpowers project
+- ✅ All team members access same skills
 - ✅ Centralized updates and customization
 - ✅ Consistent development practices
 
@@ -62,77 +61,29 @@ Originally built as a Claude Code plugin, this distribution adapts the skills fo
 
 ## Feature Comparison
 
-| Feature | ChatGPT Free | ChatGPT Plus (GPT) | Claude Desktop Pro |
-|---------|--------------|--------------------|--------------------|
-| **Persistent skills** | ❌ No | ✅✅ **Always** | ✅ Per project |
-| **Setup time** | 2 min/session | **5 min once** | 15 min |
-| **Skills available** | 20+ (upload) | 20+ (built-in) | 20+ (ZIPs) |
-| **Activation** | Manual | ✅ **Automatic** | Manual |
-| **Sharing** | ❌ | ✅✅ **Link sharing** | ❌ |
-| **Access method** | Upload file | **Click GPT link** | Settings menu |
-| **Updates** | Re-upload | Edit GPT | Re-upload ZIPs |
-| **Discovery** | ❌ | ✅ **GPT Store** | ❌ |
+| Feature | ChatGPT Free | ChatGPT Plus (Projects) | Claude Desktop Pro (Projects) |
+|---------|--------------|------------------------|------------------------------|
+| **Persistent skills** | ❌ No | ✅ Project-wide | ✅ Project-wide |
+| **Setup time** | 2 min/session | 10 min once | 10-15 min once |
+| **Skills available** | 20+ (upload) | 20+ (in project) | 20+ (in project or ZIPs) |
+| **Custom instructions** | ❌ | ✅ Per-project | ✅ Per-project |
+| **Access method** | Upload file | Use project | Use project |
+| **Skill activation** | Manual | Reminder-based | Reminder-based |
 | **Monthly cost** | $0 | $20 | $20 |
 
-**Winner: ChatGPT Plus with Custom GPT** - Most persistent, most shareable, easiest to use.
+**ChatGPT Projects = Claude Desktop Projects** (same experience!)
 
 ---
 
-## Why ChatGPT Plus is Superior
+## Why ChatGPT Projects?
 
-### The Custom GPT Advantage
+**Same approach as Claude Desktop Projects:**
+- ✅ Upload skill files to a project
+- ✅ Set custom instructions
+- ✅ Skills persist across conversations
+- ✅ Organized, professional workflow
 
-**Claude Desktop Pro:**
-- Upload 20 ZIPs via Settings → Capabilities
-- Skills available account-wide
-- Manual skill invocation still required
-
-**ChatGPT Plus Custom GPT:**
-- ✅✅ **Create GPT once** (5 minutes)
-- ✅✅ **Click link, start using** (0 seconds thereafter)
-- ✅✅ **Share with teammates** (send link)
-- ✅✅ **Discoverable** (GPT Store listing)
-- ✅✅ **Forkable** (customize your copy)
-- ✅✅ **True persistence** (GPT exists permanently)
-
-### Sharing Example
-
-**Claude:** "Hey team, upload these 20 ZIPs to your Claude Desktop..."
-
-**ChatGPT:** "Hey team, use this GPT: https://chat.openai.com/g/g-xyz123" ✨
-
----
-
-## Quick Start by Tier
-
-### Free Users
-
-```markdown
-1. Download all-skills.md (23KB)
-2. Start new ChatGPT conversation
-3. Upload the file
-4. Say: "I've uploaded the Superpowers skills library"
-5. Use skills: "Use Test-Driven Development to implement X"
-```
-
-### Plus Users (Recommended)
-
-```markdown
-1. Go to ChatGPT → Explore GPTs → Create
-2. Follow GPT-SETUP-GUIDE.md (5 minute setup)
-3. Save your "Superpowers Development" GPT
-4. Click GPT link anytime to use
-5. Share link with teammates
-```
-
-### Team Users
-
-```markdown
-1. Create organization-wide GPT
-2. Configure with team standards
-3. Share with entire team
-4. Everyone uses same consistent assistant
-```
+**No Custom GPT needed** - Projects are simpler and work great!
 
 ---
 
@@ -142,7 +93,7 @@ Originally built as a Claude Code plugin, this distribution adapts the skills fo
 
 **Available:**
 - All 20+ skills in single file
-- Same workflows as Pro
+- Same workflows as Plus
 - Full TDD, debugging, collaboration
 
 **Limitations:**
@@ -150,18 +101,17 @@ Originally built as a Claude Code plugin, this distribution adapts the skills fo
 - No persistence
 - Manual skill invocation
 
-### Plus Mode ✅✅✅
+### Plus Mode (Projects) ✅
 
-**Everything works perfectly:**
-- ✅ Custom GPT with all skills
-- ✅ Permanent persistence
-- ✅ Link-based access
-- ✅ Shareable with team
-- ✅ Automatic skill selection
+**Everything works:**
+- ✅ Create Superpowers project
+- ✅ Upload 20 skill files once
+- ✅ Custom instructions for reminders
+- ✅ Persistent across conversations
+- ✅ Same as Claude Desktop experience
 - ✅ No per-conversation setup
-- ✅ One GPT for all projects
 
-### Team Mode ✅✅
+### Team Mode ✅
 
 **Plus everything from Plus:**
 - ✅ Shared across organization
@@ -193,12 +143,8 @@ superpowers-chatgpt/
 │   ├── all-skills.md (23KB, all 20+ skills)
 │   └── core-workflows.md
 ├── plus-mode/
-│   ├── GPT-SETUP-GUIDE.md ⭐ Complete setup tutorial
+│   ├── PROJECTS-SETUP-GUIDE.md ⭐ Complete setup tutorial
 │   ├── README.md
-│   ├── gpt-configuration/
-│   │   ├── gpt-instructions.txt
-│   │   ├── gpt-description.txt
-│   │   └── conversation-starters.txt
 │   └── knowledge-files/
 │       ├── core/ (4 skills)
 │       ├── testing/ (3 skills)
@@ -218,28 +164,60 @@ superpowers-chatgpt/
 
 **When to upgrade:**
 - ✅ Tired of uploading files every conversation
-- ✅ Want persistent GPT that's always available
-- ✅ Want to share with teammates
+- ✅ Want persistent project with all skills
+- ✅ Want custom instructions for reminders
 
 **What you gain:**
-- Custom GPT with all skills built-in
-- Click link and start using
-- Share with team via link
+- Project with all skills built-in
+- Custom instructions
 - No more per-conversation uploads
+- Better organization
 
-### From Claude Desktop → ChatGPT Plus
+### From Claude Desktop → ChatGPT
 
-**When to switch:**
-- ✅ Want link-based sharing
-- ✅ Want GPT Store discoverability
-- ✅ Want zero-friction access
-- ✅ Already have ChatGPT Plus
+**Why use both?**
+- Same workflow on both platforms
+- Use whichever AI you prefer for the task
+- Skills work identically
 
-**What you gain:**
-- Better persistence (GPT vs per-project)
-- Sharing via link
-- Forking and customization
-- GPT Store listing
+**How to migrate:**
+- Same skill files work on both
+- Same project-based approach
+- Same custom instructions concept
+
+---
+
+## Quick Start by Tier
+
+### Free Users
+
+```markdown
+1. Download all-skills.md (23KB)
+2. Start new ChatGPT conversation
+3. Upload the file
+4. Say: "I've uploaded the Superpowers skills library"
+5. Use skills: "Use Test-Driven Development to implement X"
+```
+
+### Plus Users (Recommended)
+
+```markdown
+1. Go to ChatGPT → My Projects → New Project
+2. Name: "Superpowers Development"
+3. Upload all 20 files from plus-mode/knowledge-files/
+4. Set custom instructions (from guide)
+5. Use project for all development conversations
+```
+
+### Team Users
+
+```markdown
+1. Create organization-wide project (admin)
+2. Upload all skills
+3. Configure team custom instructions
+4. Share with entire team
+5. Everyone uses same consistent skills
+```
 
 ---
 
@@ -264,35 +242,41 @@ ChatGPT: "Using Test-Driven Development to implement email validation.
           Let me run this to verify it fails..."
 ```
 
-### Using Plus Mode (Custom GPT)
+### Using Plus Mode (Projects)
 
 ```
-[Click Superpowers GPT link]
+[In Superpowers Development project]
 You: "I need to add email validation"
 
-Superpowers GPT: "I'm using Test-Driven Development for this feature.
+ChatGPT: "I'm using test-driven-development.md for this feature.
 
-                  RED Phase: Writing failing test first...
+          RED Phase: Writing failing test first...
 
-                  test('validates email format', () => {
-                    expect(validateEmail('invalid')).toBe(false);
-                  });
+          test('validates email format', () => {
+            expect(validateEmail('invalid')).toBe(false);
+          });
 
-                  Let me run this to verify it fails..."
+          Let me run this to verify it fails..."
 ```
 
-**Notice:** Plus mode automatically knows to use TDD!
+**Notice:** Plus mode with projects is cleaner - no file upload needed!
 
 ---
 
-## Public Superpowers GPT
+## Comparison to Claude Desktop
 
-**Coming soon:** Official public Superpowers GPT
+| Aspect | ChatGPT Projects | Claude Desktop Projects |
+|--------|------------------|------------------------|
+| **Setup approach** | Upload files to project | Upload files OR ZIPs to project |
+| **Custom instructions** | Per-project | Per-project |
+| **Persistence** | Project-wide | Project-wide |
+| **Skill files** | 20 individual .md files | 20 individual .md files OR 20 ZIPs |
+| **Experience** | ✅ Same | ✅ Same |
+| **File management** | Replace files | Replace files or ZIPs |
 
-- Listed in GPT Store
-- Anyone with Plus can use
-- Fork to customize
-- Link: [Will be added when created]
+**Both platforms use Projects the same way!**
+
+The main difference is Claude also offers ZIP upload via Settings → Capabilities, but Projects work identically on both platforms.
 
 ---
 
@@ -327,24 +311,24 @@ MIT License - see [LICENSE](../LICENSE) file for details.
 - ✅ You only need occasional access
 - ✅ 2-minute setup per session is fine
 
-**Use Plus Mode (Custom GPT) if:**
-- ✅✅ You have ChatGPT Plus ($20/month)
-- ✅✅ You want the BEST experience
-- ✅✅ You want to share with teammates
-- ✅✅ You use AI coding daily
-- ✅✅ You want zero friction
+**Use Plus Mode (Projects) if:**
+- ✅ You have ChatGPT Plus ($20/month)
+- ✅ You want persistent skills
+- ✅ You use AI coding daily
+- ✅ You want custom instructions
+- ✅ Same experience as Claude Desktop
 
 **Use Team Mode if:**
 - ✅ You have Team/Enterprise plan
 - ✅ You want org-wide deployment
 - ✅ You want centralized management
 
-**Still unsure?** Start with Free mode. If you find it useful but tedious, upgrade to Plus and create your GPT. You'll never look back.
+**Still unsure?** Start with Free mode. If you find it useful but tedious, upgrade to Plus and create your project.
 
 ---
 
 **Ready to get started?**
 
 - **[Free Mode Quick-Start →](free-mode/QUICK-START.md)**
-- **[Plus Mode GPT Setup →](plus-mode/GPT-SETUP-GUIDE.md)** ⭐ Recommended
+- **[Plus Mode Projects Setup →](plus-mode/PROJECTS-SETUP-GUIDE.md)** ⭐ Recommended
 - **[Team Mode Setup →](team-mode/TEAM-SETUP-GUIDE.md)**
