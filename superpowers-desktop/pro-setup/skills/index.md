@@ -16,6 +16,8 @@
 
 **I need to humanize AI-generated text** → `content/ai-text-humanization.md`
 
+**I need to humanize AI-generated French text** → `content/humanisation-texte-ia-francais.md`
+
 **I have flaky async tests** → `testing/condition-based-waiting.md`
 
 **I want to write better tests** → `testing/testing-anti-patterns.md`
@@ -264,6 +266,23 @@
 
 ---
 
+### humanisation-texte-ia-francais.md
+**When:** Editing AI-generated French text that sounds robotic, removing French AI patterns, or optimizing French text to reduce detection
+
+**What:** French-adapted version transforming AI-generated French text into natural human-like writing. Complete 10-phase system with French-specific patterns, n-grams, nominalization rules, and statistical baselines.
+
+**Key Points:**
+- French AI vocabulary removal (150+ French n-grams: "Il convient de...", "Dans le cadre de...")
+- French nominalization conversion ("La mise en œuvre de..." → "Nous mettons en œuvre...")
+- French dialogue enhancement (contractions: "J'sais pas", particules: "Hein", "Quoi")
+- French-specific patterns ("Notamment", "En effet", "Ainsi" overuse)
+- French statistical baselines (20-25% nouns, 15-19% verbs, TTR 0.45-0.65)
+- Adapted for francophone non-native speakers
+
+**Word Count:** ~8,500 words
+
+---
+
 ## Meta Skills
 
 ### writing-skills.md
@@ -293,13 +312,13 @@
 
 ## Skill Statistics
 
-- **Total Skills:** 23
-- **Total Content:** ~26,500 words
+- **Total Skills:** 24
+- **Total Content:** ~35,000 words
 - **Core Skills:** 4 (highest priority)
 - **Testing Skills:** 2
 - **Debugging Skills:** 3
 - **Collaboration Skills:** 8
-- **Content Skills:** 3
+- **Content Skills:** 4 (including French adaptation)
 - **Meta Skills:** 3
 
 ---

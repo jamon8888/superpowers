@@ -1,0 +1,103 @@
+{
+  "prohibited_words": {
+    "common_ai_vocabulary": [
+      "univers",
+      "sphère",
+      "domaine",
+      "panorama",
+      "écosystème",
+      "levier",
+      "palette",
+      "panel",
+      "pléthore",
+      "myriade"
+    ],
+    "overused_business_jargon": [
+      "optimiser",
+      "maximiser",
+      "mettre en œuvre",
+      "déployer",
+      "piloter",
+      "identifier",
+      "caractériser",
+      "s'avérer"
+    ],
+    "formulaic_expressions": [
+      "Il est important de noter que",
+      "Il convient de souligner que",
+      "Force est de constater que",
+      "Il est intéressant de noter",
+      "À cet égard, il est pertinent de",
+      "Dans le cadre de",
+      "Il s'agit de",
+      "En vue de",
+      "Afin de",
+      "Au niveau de",
+      "En termes de"
+    ],
+    "overused_connectors": [
+      "notamment",
+      "en effet",
+      "ainsi",
+      "par ailleurs",
+      "de plus",
+      "de manière générale",
+      "d'une part... d'autre part"
+    ],
+    "purple_prose_metaphors": [
+      "symphonie de",
+      "mosaïque de",
+      "écrin de",
+      "ballet de",
+      "tapisserie de",
+      "poids du silence",
+      "résonner à travers",
+      "tisser des liens",
+      "puiser dans"
+    ],
+    "weak_modifiers": [
+      "quelque peu",
+      "plutôt",
+      "assez",
+      "relativement",
+      "en quelque sorte",
+      "d'une certaine manière",
+      "pour ainsi dire",
+      "très",
+      "vraiment",
+      "extrêmement",
+      "particulièrement",
+      "fortement"
+    ],
+    "pattern_rules": {
+      "nominalization_patterns": [
+        "La mise en œuvre de",
+        "L'utilisation de",
+        "La réalisation du",
+        "L'analyse des",
+        "La considération de",
+        "Le développement de",
+        "L'optimisation de",
+        "La compréhension de"
+      ],
+      "business_cliches": [
+        "En fin de compte",
+        "À la fin de la journée",
+        "Au bout du compte",
+        "Faire avancer les choses",
+        "Prendre du recul",
+        "Avoir une vue d'ensemble",
+        "Franchir un cap",
+        "Monter en puissance"
+      ]
+    }
+  },
+  "usage_notes": {
+    "description": "Liste des mots et patterns interdits pour IA française",
+    "version": "1.0.0",
+    "adapted_from": "ClaudeHumanizer master_prohibited_words.json",
+    "language": "French",
+    "phase_2_usage": "Utilisé en Phase 2 (Nettoyage Vocabulaire IA)",
+    "phase_10_usage": "Utilisé en Phase 10 (Balayage Final)"
+  }
+}
