@@ -10,6 +10,12 @@
 
 **I'm starting work** → `core/using-superpowers.md` (read this first!)
 
+**I need to write a LinkedIn post** → `content/linkedin-thought-leadership.md`
+
+**I need to write interface copy or microcopy** → `content/ux-writing.md`
+
+**I need to humanize AI-generated text** → `content/ai-text-humanization.md`
+
 **I have flaky async tests** → `testing/condition-based-waiting.md`
 
 **I want to write better tests** → `testing/testing-anti-patterns.md`
@@ -208,6 +214,56 @@
 
 ---
 
+## Content Skills
+
+### linkedin-thought-leadership.md
+**When:** Writing LinkedIn posts, building thought leadership, or optimizing content strategy
+
+**What:** Comprehensive system for building LinkedIn thought leadership through algorithmic understanding, strategic consistency, and authentic engagement. Combines tactical content creation with systematic growth frameworks based on 2024-2025 platform mechanics.
+
+**Key Points:**
+- Understand LinkedIn algorithm (Golden Hour Rule, topical authority)
+- 8 thought leadership angles for any content
+- Strategic engagement framework (5x5x5 method)
+- 90-day foundation system for consistent growth
+
+**Word Count:** ~5,500 words
+
+---
+
+### ux-writing.md
+**When:** Writing or editing interface copy (buttons, labels, error messages, forms, notifications, onboarding)
+
+**What:** Create user-centered, accessible interface copy (microcopy) for digital products. Applies four quality standards (purposeful, concise, conversational, clear) with comprehensive patterns for all UI text types.
+
+**Key Points:**
+- Four-phase editing process (purposeful → concise → conversational → clear)
+- Complete pattern library (buttons, errors, empty states, forms, notifications)
+- Voice and tone adaptation framework
+- Accessibility guidelines aligned with WCAG
+- Research-backed benchmarks (sentence length, readability, comprehension rates)
+
+**Word Count:** ~1,800 words
+
+---
+
+### ai-text-humanization.md
+**When:** Editing AI-generated content that sounds robotic, removing AI patterns, or optimizing text to reduce detection
+
+**What:** Transform AI-generated text into natural, human-like writing using systematic 10-phase assembly line process. Eliminates detection markers through sequential improvements targeting vocabulary, patterns, dialogue, and statistical signatures.
+
+**Key Points:**
+- 10-phase sequential processing (grammar → AI vocabulary → purple prose → dialogue → imperfections → final sweep)
+- Pattern-based filtering for 150+ AI n-grams and formulaic expressions
+- Nominalization conversion and voice distribution balancing
+- Strategic imperfections (punctuation variation, logical leaps)
+- Optional statistical optimization (burstiness, POS ratios, lexical diversity)
+- Special handling for NNES and hybrid human-AI content
+
+**Word Count:** ~4,200 words
+
+---
+
 ## Meta Skills
 
 ### writing-skills.md
@@ -237,12 +293,13 @@
 
 ## Skill Statistics
 
-- **Total Skills:** 20
-- **Total Content:** ~15,000 words
+- **Total Skills:** 23
+- **Total Content:** ~26,500 words
 - **Core Skills:** 4 (highest priority)
 - **Testing Skills:** 2
 - **Debugging Skills:** 3
 - **Collaboration Skills:** 8
+- **Content Skills:** 3
 - **Meta Skills:** 3
 
 ---
