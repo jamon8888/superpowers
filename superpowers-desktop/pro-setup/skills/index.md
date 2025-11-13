@@ -12,6 +12,8 @@
 
 **I need to write a LinkedIn post** → `content/linkedin-thought-leadership.md`
 
+**I need to write interface copy or microcopy** → `content/ux-writing.md`
+
 **I have flaky async tests** → `testing/condition-based-waiting.md`
 
 **I want to write better tests** → `testing/testing-anti-patterns.md`
@@ -227,6 +229,22 @@
 
 ---
 
+### ux-writing.md
+**When:** Writing or editing interface copy (buttons, labels, error messages, forms, notifications, onboarding)
+
+**What:** Create user-centered, accessible interface copy (microcopy) for digital products. Applies four quality standards (purposeful, concise, conversational, clear) with comprehensive patterns for all UI text types.
+
+**Key Points:**
+- Four-phase editing process (purposeful → concise → conversational → clear)
+- Complete pattern library (buttons, errors, empty states, forms, notifications)
+- Voice and tone adaptation framework
+- Accessibility guidelines aligned with WCAG
+- Research-backed benchmarks (sentence length, readability, comprehension rates)
+
+**Word Count:** ~1,800 words
+
+---
+
 ## Meta Skills
 
 ### writing-skills.md
@@ -256,13 +274,13 @@
 
 ## Skill Statistics
 
-- **Total Skills:** 21
-- **Total Content:** ~20,500 words
+- **Total Skills:** 22
+- **Total Content:** ~22,300 words
 - **Core Skills:** 4 (highest priority)
 - **Testing Skills:** 2
 - **Debugging Skills:** 3
 - **Collaboration Skills:** 8
-- **Content Skills:** 1
+- **Content Skills:** 2
 - **Meta Skills:** 3
 
 ---
