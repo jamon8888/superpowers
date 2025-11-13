@@ -10,6 +10,8 @@
 
 **I'm starting work** → `core/using-superpowers.md` (read this first!)
 
+**I need to write a LinkedIn post** → `content/linkedin-thought-leadership.md`
+
 **I have flaky async tests** → `testing/condition-based-waiting.md`
 
 **I want to write better tests** → `testing/testing-anti-patterns.md`
@@ -208,6 +210,23 @@
 
 ---
 
+## Content Skills
+
+### linkedin-thought-leadership.md
+**When:** Writing LinkedIn posts, building thought leadership, or optimizing content strategy
+
+**What:** Comprehensive system for building LinkedIn thought leadership through algorithmic understanding, strategic consistency, and authentic engagement. Combines tactical content creation with systematic growth frameworks based on 2024-2025 platform mechanics.
+
+**Key Points:**
+- Understand LinkedIn algorithm (Golden Hour Rule, topical authority)
+- 8 thought leadership angles for any content
+- Strategic engagement framework (5x5x5 method)
+- 90-day foundation system for consistent growth
+
+**Word Count:** ~5,500 words
+
+---
+
 ## Meta Skills
 
 ### writing-skills.md
@@ -237,12 +256,13 @@
 
 ## Skill Statistics
 
-- **Total Skills:** 20
-- **Total Content:** ~15,000 words
+- **Total Skills:** 21
+- **Total Content:** ~20,500 words
 - **Core Skills:** 4 (highest priority)
 - **Testing Skills:** 2
 - **Debugging Skills:** 3
 - **Collaboration Skills:** 8
+- **Content Skills:** 1
 - **Meta Skills:** 3
 
 ---
