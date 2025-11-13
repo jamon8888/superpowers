@@ -14,6 +14,8 @@
 
 **I need to write interface copy or microcopy** → `content/ux-writing.md`
 
+**I need to humanize AI-generated text** → `content/ai-text-humanization.md`
+
 **I have flaky async tests** → `testing/condition-based-waiting.md`
 
 **I want to write better tests** → `testing/testing-anti-patterns.md`
@@ -245,6 +247,23 @@
 
 ---
 
+### ai-text-humanization.md
+**When:** Editing AI-generated content that sounds robotic, removing AI patterns, or optimizing text to reduce detection
+
+**What:** Transform AI-generated text into natural, human-like writing using systematic 10-phase assembly line process. Eliminates detection markers through sequential improvements targeting vocabulary, patterns, dialogue, and statistical signatures.
+
+**Key Points:**
+- 10-phase sequential processing (grammar → AI vocabulary → purple prose → dialogue → imperfections → final sweep)
+- Pattern-based filtering for 150+ AI n-grams and formulaic expressions
+- Nominalization conversion and voice distribution balancing
+- Strategic imperfections (punctuation variation, logical leaps)
+- Optional statistical optimization (burstiness, POS ratios, lexical diversity)
+- Special handling for NNES and hybrid human-AI content
+
+**Word Count:** ~4,200 words
+
+---
+
 ## Meta Skills
 
 ### writing-skills.md
@@ -274,13 +293,13 @@
 
 ## Skill Statistics
 
-- **Total Skills:** 22
-- **Total Content:** ~22,300 words
+- **Total Skills:** 23
+- **Total Content:** ~26,500 words
 - **Core Skills:** 4 (highest priority)
 - **Testing Skills:** 2
 - **Debugging Skills:** 3
 - **Collaboration Skills:** 8
-- **Content Skills:** 2
+- **Content Skills:** 3
 - **Meta Skills:** 3
 
 ---
