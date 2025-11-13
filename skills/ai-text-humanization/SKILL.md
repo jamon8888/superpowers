@@ -536,3 +536,29 @@ After processing, verify:
 Based on the ClaudeHumanizer system by pshort05, which employs research-backed detection countermeasures and systematic assembly line processing for AI text humanization.
 
 **Repository:** https://github.com/pshort05/ClaudeHumanizer
+
+## Reference Materials
+
+This skill includes essential reference materials for AI text humanization:
+
+### Core Files
+
+- **master-prohibited-words.json**: **REQUIRED** for Phases 2 and 10. Contains 1,643 lines of AI vocabulary patterns, formulaic expressions, and pattern-matching rules. This file is essential for the automated detection and removal of AI markers.
+
+### Documentation
+
+- **docs/USAGE_GUIDE.md**: Complete step-by-step guide for processing text through all 10 phases, including troubleshooting, quality control, and automation setup instructions.
+
+### How to Use
+
+The `master-prohibited-words.json` file contains:
+- Common AI vocabulary to eliminate
+- N-gram patterns (2-5 word sequences)
+- Purple prose metaphors
+- Business jargon patterns
+- Pattern-matching rules for dialogue, descriptions, and finger movements
+
+**For manual processing**: Reference this file when applying Phases 2 and 10
+**For automated processing**: Include this file in your API calls or automation workflows
+
+See `docs/USAGE_GUIDE.md` for complete instructions on integrating these materials into your workflow.

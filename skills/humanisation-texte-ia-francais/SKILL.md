@@ -782,3 +782,29 @@ Basé sur le système ClaudeHumanizer par pshort05, adapté spécifiquement pour
 
 **Référentiel original :** https://github.com/pshort05/ClaudeHumanizer
 **Adaptation française :** Version complète avec patterns IA français, n-grammes, nominalisations, et normes statistiques
+
+## Matériaux de Référence
+
+Cette compétence inclut les matériaux de référence essentiels pour l'humanisation de texte IA en français :
+
+### Fichiers Principaux
+
+- **mots-interdits-francais.json**: **REQUIS** pour les Phases 2 et 10. Contient 103 lignes de patterns de vocabulaire IA français, expressions formulaires, et règles de détection de patterns. Ce fichier est essentiel pour la détection et suppression automatisées des marqueurs IA français.
+
+### Contenu du Fichier
+
+Le fichier `mots-interdits-francais.json` contient :
+- Vocabulaire IA français courant à éliminer
+- Expressions formulaires ("Il convient de...", "Dans le cadre de...")
+- Connecteurs surutilisés ("Notamment", "En effet", "Ainsi")
+- Jargon business français ("Optimiser", "Mettre en œuvre", "Déployer")
+- Métaphores de prose ampoulée ("Symphonie de...", "Mosaïque de...")
+- Patterns de nominalisation ("La mise en œuvre de...", "L'utilisation de...")
+- Clichés business français ("En fin de compte", "Faire avancer les choses")
+
+### Utilisation
+
+**Pour traitement manuel**: Référencez ce fichier lors de l'application des Phases 2 et 10
+**Pour traitement automatisé**: Incluez ce fichier dans vos appels API ou workflows d'automatisation
+
+Ce fichier est une adaptation linguistique complète pour le français, pas une simple traduction des patterns anglais.

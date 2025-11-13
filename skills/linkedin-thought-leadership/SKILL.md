@@ -840,3 +840,27 @@ Before finalizing any post, verify:
 **The algorithm rewards expertise, consistency, and authenticity. Everything else is noise.**
 
 When in doubt: Post something valuable, engage genuinely, learn from results, repeat.
+
+## Reference Materials
+
+This skill includes comprehensive reference materials to support your LinkedIn content creation:
+
+### References Directory
+
+- **references/thought-leadership-angles.md**: Complete framework for the 8 universal thought leadership angles with examples and application patterns
+- **references/linkedin-formats.md**: Detailed guide to all LinkedIn content formats (carousels, videos, polls, documents, articles) with optimization tips
+- **references/engagement-frameworks.md**: Strategic engagement methods including the 5x5x5 pre-posting method and first-hour battle plan
+
+### Assets Directory
+
+Personalize the skill with YOUR content:
+
+- **assets/README.md**: Guide to progressive personalization and asset management
+- **assets/voice-samples/authentic-voice-samples.md**: Template for capturing YOUR authentic writing voice
+- **assets/examples/**: Store YOUR high-performing posts
+- **assets/frameworks/**: Document YOUR unique methodologies
+- **assets/case-studies/**: Archive YOUR project successes
+- **assets/templates/**: Build YOUR reusable post templates
+- **assets/audience-insights/**: Track YOUR audience analytics
+
+The more you populate the assets directory with your actual content, the more the skill adapts to YOUR voice and YOUR patterns.
